@@ -1,0 +1,111 @@
+body {
+    background-color: #F7E5bf;
+}
+
+h1 {
+    display: flex;
+    font-family: "Fredoka One", serif;
+    justify-content: center;
+    font-size: 50px;
+    color: #b30019;
+    background-color: #fff7c2;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h3 {
+    font-family: "Fredoka One", serif;
+    text-align: left;
+    font-size: 30px;
+    color: #506432;
+    text-indent: 1em;
+}
+
+h5, h4 {
+    font-family: "Fredoka One", serif;
+    text-align: left;
+    font-size: 15px;
+    color: #6c3400;
+}
+
+ol {
+    /* display: flex; */
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    font-family: "Raleway", serif;
+}
+
+#thank {
+    display: flex;
+    justify-content: center;
+    font-family: "Fredoka One", serif;
+    font-size: 30px;
+    color: #506432;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "Raleway", serif;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.recObs {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.washer {
+    /* display: flex;
+    flex-wrap: wrap; */
+    max-width: 50%;
+    height: auto;
+}
+
+.panel {
+    max-width: 50%;
+    height: 50%;
+}
+
+.personas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.eachPersonas{
+    margin: 30px;
+}
+
+.grid {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: minmax(min-content, max-content);
+    /* grid-template-columns: 50% 50%; */
+    /* grid-auto-rows: 25vh 25vh; */
+}
+
+.item h4{
+    text-align: center;
+}
+
+.item {
+    border: 1px solid black;
+    text-align: left;
+}
+
+.storyboard {
+    max-width: 100%;
+    height: auto;
+}
+
+
