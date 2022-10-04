@@ -35,6 +35,14 @@ ol {
     font-family: "Raleway", serif;
 }
 
+.intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "Fredoka One", serif;
+    font-size: 20px;
+}
+
 #thank {
     display: flex;
     justify-content: center;
